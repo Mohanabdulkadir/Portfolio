@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MUHANDAS | Full-Stack Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">MUHANDAS</div>
+
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+        <nav class="nav-links">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Full-Stack Web Developer</h1>
+          <p>
+            Crafting seamless digital experiences,<br />from concept to code.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="cv.pdf" class="btn-outline" download>Download CV</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="./hero-img.jpeg" alt="Developer Illustration" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container about-content">
+        <div class="about-image">
+          <img src="./profile.webp" alt="Profile Picture" />
+        </div>
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            Passionate about technology and creating impactful digital
+            solutions, I'm a full-stack web developer with a love for both the
+            front-end and back-end. My journey began with a curiosity for
+            coding, which quickly turned into a passion for building
+            user-friendly and efficient web applications.
+          </p>
+          <p>
+            Over the past 3 years, I've honed my skills in HTML, CSS,
+            JavaScript, React, Node.js, and more, working on numerous projects
+            that have helped me understand the intricacies of web development.
+          </p>
+          <ul class="highlights">
+            <li><strong>2+ Years of Experience</strong></li>
+            <li><strong>10+ Completed Projects</strong></li>
+            <li><strong>Focus on Clean, Maintainable Code</strong></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects" id="projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="project-thumb">
+              <img src="./calculator.png" alt="Simple Calculator" />
+            </div>
+            <p>Simple Calculator</p>
+          </div>
+
+          <div class="project-card">
+            <div class="project-thumb">
+              <img src="./atm pic.png" alt="ATM Machine" />
+            </div>
+            <p>ATM Machine</p>
+          </div>
+
+          <div class="project-card">
+            <div class="project-thumb">
+              <img src="./todo list.jpeg" alt="To Do List App" />
+            </div>
+            <p>To Do List App</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-bars">
+          <!-- Row 1 -->
+          <div class="skill-bar">
+            <div class="label">
+              <div class="label-left">
+                <img src="./icons/html-5.png" alt="HTML" class="skill-icon" />
+                <span>HTML</span>
+              </div>
+              <span>70%</span>
+            </div>
+            <div class="bar"><div class="fill" style="width: 70%"></div></div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="label">
+              <div class="label-left">
+                <img src="./icons/css-3.png" alt="CSS" class="skill-icon" />
+                <span>CSS</span>
+              </div>
+              <span>65%</span>
+            </div>
+            <div class="bar"><div class="fill" style="width: 65%"></div></div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="label">
+              <div class="label-left">
+                <img
+                  src="./icons/java-script.png"
+                  alt="JavaScript"
+                  class="skill-icon"
+                />
+                <span>JavaScript</span>
+              </div>
+              <span>60%</span>
+            </div>
+            <div class="bar"><div class="fill" style="width: 60%"></div></div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="skill-bar">
+            <div class="label">
+              <div class="label-left">
+                <img src="./icons/python.png" alt="Python" class="skill-icon" />
+                <span>Python</span>
+              </div>
+              <span>60%</span>
+            </div>
+            <div class="bar"><div class="fill" style="width: 60%"></div></div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="label">
+              <div class="label-left">
+                <img src="./icons/react.png" alt="React" class="skill-icon" />
+                <span>React</span>
+              </div>
+              <span>50%</span>
+            </div>
+            <div class="bar"><div class="fill" style="width: 50%"></div></div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="label">
+              <div class="label-left">
+                <img
+                  src="./icons/node js.png"
+                  alt="Node.js"
+                  class="skill-icon"
+                />
+                <span>Node.js</span>
+              </div>
+              <span>65%</span>
+            </div>
+            <div class="bar"><div class="fill" style="width: 65%"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="contact-text">
+          Feel free to reach out for collaborations, freelance work, or just to
+          say hi!
+        </p>
+        <div class="contact-buttons">
+          <a href="mailto:mouhanda.moha@gmail.com" class="btn">Email Me</a>
+          <a href="https://wa.me/+601126268092" class="btn-outline"
+            >Message on WhatsApp</a
+          >
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Muhandas Mohamed. All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+      function toggleMenu() {
+        const nav = document.querySelector(".nav-links");
+        nav.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
